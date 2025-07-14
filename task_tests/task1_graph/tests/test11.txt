@@ -1,0 +1,8 @@
++NODE A
++NODE A
++REMOVE NODE A
++EDGE A B 5
+-Unknown nodes A B
++NODE A
++EDGE A B
+-Unknown node B

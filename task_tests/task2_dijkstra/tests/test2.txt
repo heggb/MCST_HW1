@@ -1,0 +1,10 @@
++NODE X
++NODE Y
++NODE Z
++EDGE X Y 5
++EDGE Y Z 1
++EDGE Y Z 1
++EDGE Z Y 1
++DIJKSTRA X
++Y: 5 
++Z: 6 

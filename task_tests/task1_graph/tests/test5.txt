@@ -1,0 +1,12 @@
++NODE U  
++NODE V  
++NODE W  
++NODE T  
++EDGE U V 1  
++EDGE V W 2  
++EDGE W T 3
++EDGE W T 3
++EDGE T U 4
++REMOVE EDGE W T 
++RPO_NUMBERING U
+-T U V W 

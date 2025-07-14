@@ -1,0 +1,12 @@
++NODE P  
++NODE Q  
++NODE R  
++NODE S  
++EDGE P Q 1  
++EDGE Q R 2
++EDGE R P 3
++EDGE Q S 4
++EDGE S Q 5
++RPO_NUMBERING P
+-Found loop R->P
+-P Q R S

@@ -1,0 +1,7 @@
++REMOVE NODE A
+-Unknown node A
++EDGE A B 10
+-Unknown nodes A B
++REMOVE EDGE A B
+-Unknown nodes A B
++RPO_NUMBERING A

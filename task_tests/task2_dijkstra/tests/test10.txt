@@ -1,0 +1,65 @@
++NODE Start
++NODE A
++NODE B
++NODE C
++NODE D
++NODE E
++NODE F
++NODE G
++NODE H
++NODE I
++NODE J
++NODE K
++NODE L
++NODE M
++NODE N
++NODE O
++NODE P
++NODE Q
++NODE R
++NODE S
++NODE Finish
++EDGE Start A 5
++EDGE A B 5
++EDGE B C 5
++EDGE C D 5
++EDGE D E 5
++EDGE E F 5
++EDGE F G 5
++EDGE G H 5
++EDGE H I 5
++EDGE I J 5
++EDGE J K 5
++EDGE K L 5
++EDGE L M 5
++EDGE M N 5
++EDGE N O 5
++EDGE O P 5
++EDGE P Q 5
++EDGE Q R 5
++EDGE R S 5
++EDGE S Finish 5
++EDGE Start M 50
++EDGE D H 1
++EDGE L Finish 10
++DIJKSTRA Start
+-A: 5 
+-B: 10 
+-C: 15 
+-D: 20 
+-H: 21 
+-E: 25 
+-I: 26 
+-F: 30 
+-J: 31 
+-G: 35 
+-K: 36 
+-L: 41 
+-M: 46 
+-N: 51 
+-Finish: 51 
+-O: 56 
+-P: 61 
+-Q: 66 
+-R: 71 
+-S: 76

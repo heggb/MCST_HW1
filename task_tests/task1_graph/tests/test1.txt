@@ -1,0 +1,16 @@
++NODE A  
++NODE B  
++NODE C  
++NODE D  
++NODE E  
++NODE F  
++EDGE A B 1  
++EDGE B C 2 
++EDGE C A 3
++EDGE C D 4
++EDGE A E 5
++EDGE F F 6
++RPO_NUMBERING A
+-Found loop C->A
+-Found loop F->F
+-F A B C D E

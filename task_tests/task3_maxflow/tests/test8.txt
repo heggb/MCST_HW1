@@ -1,0 +1,2 @@
++MAX FLOW A B 
+-0

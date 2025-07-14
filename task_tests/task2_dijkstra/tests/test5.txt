@@ -1,0 +1,9 @@
++NODE U
++NODE V
++NODE W
++EDGE U V 0
++EDGE V W 0
++EDGE U W 1
++DIJKSTRA U
+-W: 0 
+-V: 0 
