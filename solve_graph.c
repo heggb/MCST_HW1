@@ -247,7 +247,7 @@ Operation parser (Graph* G, char* input, const char** variant_set, size_t size)
         check_find = substr_ptr && substr_ptr == input;
         if (check_find) 
         {
-            //end_oper = (substr_ptr - input) + strlen(variant_set[i]);
+            end_oper = (substr_ptr - input) + strlen(variant_set[i]);
             cur_oper = (Operation)i;
             break;
         }
