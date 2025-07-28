@@ -203,7 +203,7 @@ int main()
 
     char* line = NULL;
 
-    while (read_line (&line, stdin) != -1)
+    while (read_line (&line, stdin) != SIZE_MAX)
     {
         Operation oper = parser (G, line, variant_set, size);
         //printGraph(G);
@@ -320,7 +320,7 @@ size_t read_line(char** lineptr, FILE* file) {
     size_t len = 0;
     size_t read = getline(lineptr, &len, file);
 
-    if (read == -1) {
+    if (read == SIZE_MAX) {
         return -1;
     }
 
